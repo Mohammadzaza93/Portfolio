@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad - Portfolio</title>
+    <!-- Link to CSS and Bootstrap -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"rel="stylesheet'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Mohammad Zaza</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!-- Homepage Section -->
+<section id="home" class="py-5 text-center">
+    <h1>Welcome to My Portfolio</h1>
+    <div class="container">
+    <p id="animated-text">I am a highly Python. My experience encompasses successfully delivering large-scale software projects, effectively managing time, and fostering open communication with team members and stakeholders. As a committed lifelong learner, I stay up-to-date with the latest advancements in technology, enabling me to excel in intricate and demanding projects.
+        Possessing exceptional leadership, teamwork, and mentorship abilities, I thrive in collaborative environments where I can contribute to the achievement of shared objectives. My technical acumen, combined with my dedication to continuous learning.
+    </p>
+    <button id="start-animation">Start Animation</button>
+</div>
+</section>
+
+    <!-- Projects Page -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2>My Projects</h2>
+            <!-- Example project card -->
+            <div class="carousel owl-carousel">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">eCommerce Website</h5>
+                    <p class="card-text">Build a Website using HTML, CSS, JavaScript, jQuery, Python, 
+                        and Bootstrap</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio </h5>
+                    <p class="card-text">Build a Website using HTML, CSS, JavaScript, jQuery,
+                        and Bootstrap</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Restaurant </h5>
+                    <p class="card-text">Build a Website using HTML, CSS, JavaScript, jQuery, Python,
+                        and Bootstrap</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- About Me Page -->
+
+<section id="about" class="py-5">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am proficient in Python, a versatile programming language used for data analysis, machine learning, and web development. With my knowledge of Python, I can automate tasks, manipulate data, and create powerful algorithms. Furthermore, I am experienced in HTML, CSS, jQuery, and JavaScript, which are essential tools for building modern, responsive websites. I have a keen eye for design and user experience, ensuring that the websites I create are both visually appealing and easy to navigate. Overall, my technical skills enable me to tackle complex problems and deliver high-quality solutions.</p>
+    </div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="carousel-container mx-auto">
+                <div class="carousel-slide">
+                    <img src="image1.png" alt="Image 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="image2.jpg" alt="Image 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="image3.png" alt="Image 3">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-12 mt-5 d-flex justify-content-center">
+    <button id="toggleButton" class="btn btn-lg btn-primary">Additional Info</button>
+  </div>
+  <div class="container">
+  <div id="additionalInfo" style="display: none;">
+    <p >I possess excellent analytical and problem-solving skills, allowing me to identify issues and develop innovative solutions. I am proficient in data analysis and visualization, utilizing tools such as Excel and Tableau to gain insights and drive informed decision-making. Additionally, I have experience in project management methodologies such as Agile and Scrum, ensuring that projects are completed on time and within budget. Overall, my diverse skill set enables me to effectively navigate complex projects and deliver results that exceed expectations.</p> 
+</div>
+</div>
+</section>
+
+<!-- Contact Page -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>Use the form below to send me a message.</p>
+        <form id="contact-form">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required placeholder="Enter Name*">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required placeholder="Enter Email*">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required placeholder="Enter Message*"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+    </section>
+
+<!-- JavaScript and jQuery Tasks -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+<script src="script.js"></script>
+
+</body>
+</html>
